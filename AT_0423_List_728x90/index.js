@@ -555,13 +555,13 @@ if (reversed == null) { reversed = false; }
 		// PAUSE ANIMATION IN MILLISECONDS //
 		
 		this.stop();
-		setTimeout(this.play.bind(this), 750);
+		setTimeout(this.play.bind(this), 1000);
 	}
 	this.frame_119 = function() {
 		// PAUSE ANIMATION IN MILLISECONDS //
 		
 		this.stop();
-		setTimeout(this.play.bind(this), 400);
+		setTimeout(this.play.bind(this), 700);
 	}
 	this.frame_191 = function() {
 		// PAUSE ANIMATION IN MILLISECONDS //
@@ -726,20 +726,20 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/back.jpg?1681420564147", id:"back"},
-		{src:"images/blue.jpg?1681420564147", id:"blue"},
-		{src:"images/car.png?1681420564147", id:"car"},
-		{src:"images/cta.png?1681420564147", id:"cta"},
-		{src:"images/logo.png?1681420564147", id:"logo"},
-		{src:"images/logo_end.png?1681420564147", id:"logo_end"},
-		{src:"images/orange.png?1681420564147", id:"orange"},
-		{src:"images/text1.png?1681420564147", id:"text1"},
-		{src:"images/text2.png?1681420564147", id:"text2"},
-		{src:"images/text3.png?1681420564147", id:"text3"},
-		{src:"images/text4_1.png?1681420564147", id:"text4_1"},
-		{src:"images/text4_2.png?1681420564147", id:"text4_2"},
-		{src:"images/text5.png?1681420564147", id:"text5"},
-		{src:"images/wheel.png?1681420564147", id:"wheel"}
+		{src:"images/back.jpg?1681422496755", id:"back"},
+		{src:"images/blue.jpg?1681422496755", id:"blue"},
+		{src:"images/car.png?1681422496755", id:"car"},
+		{src:"images/cta.png?1681422496755", id:"cta"},
+		{src:"images/logo.png?1681422496755", id:"logo"},
+		{src:"images/logo_end.png?1681422496755", id:"logo_end"},
+		{src:"images/orange.png?1681422496755", id:"orange"},
+		{src:"images/text1.png?1681422496755", id:"text1"},
+		{src:"images/text2.png?1681422496755", id:"text2"},
+		{src:"images/text3.png?1681422496755", id:"text3"},
+		{src:"images/text4_1.png?1681422496755", id:"text4_1"},
+		{src:"images/text4_2.png?1681422496755", id:"text4_2"},
+		{src:"images/text5.png?1681422496755", id:"text5"},
+		{src:"images/wheel.png?1681422496755", id:"wheel"}
 	],
 	preloads: []
 };
