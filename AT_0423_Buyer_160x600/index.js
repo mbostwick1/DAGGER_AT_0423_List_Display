@@ -28,7 +28,7 @@ lib.ssMetadata = [];
 (lib.app = function() {
 	this.initialize(img.app);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,320,1200);
+p.nominalBounds = new cjs.Rectangle(0,0,320,887);
 
 
 (lib.bluebar = function() {
@@ -106,7 +106,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,320,1200);
 (lib.post = function() {
 	this.initialize(img.post);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,320,572);
+p.nominalBounds = new cjs.Rectangle(0,0,320,574);
 
 
 (lib.text1 = function() {
@@ -312,7 +312,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.post_1, new cjs.Rectangle(0,0,160,286), null);
+}).prototype = getMCSymbolPrototype(lib.post_1, new cjs.Rectangle(0,0,160,287), null);
 
 
 (lib.orangebar_1 = function(mode,startPosition,loop,reversed) {
@@ -650,7 +650,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.app_1, new cjs.Rectangle(0,0,160,600), null);
+}).prototype = getMCSymbolPrototype(lib.app_1, new cjs.Rectangle(0,0,160,443.5), null);
 
 
 // stage content:
@@ -984,26 +984,26 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/app.jpg?1681489521125", id:"app"},
-		{src:"images/bluebar.png?1681489521125", id:"bluebar"},
-		{src:"images/cta.png?1681489521125", id:"cta"},
-		{src:"images/head1.png?1681489521125", id:"head1"},
-		{src:"images/head2.png?1681489521125", id:"head2"},
-		{src:"images/head3_1.png?1681489521125", id:"head3_1"},
-		{src:"images/head3_2.png?1681489521125", id:"head3_2"},
-		{src:"images/head3_3.png?1681489521125", id:"head3_3"},
-		{src:"images/head3_4.png?1681489521125", id:"head3_4"},
-		{src:"images/head3_5.png?1681489521125", id:"head3_5"},
-		{src:"images/image.jpg?1681489521125", id:"image"},
-		{src:"images/logo.png?1681489521125", id:"logo"},
-		{src:"images/orangebar.png?1681489521125", id:"orangebar"},
-		{src:"images/post.jpg?1681489521125", id:"post"},
-		{src:"images/text1.png?1681489521125", id:"text1"},
-		{src:"images/text2.png?1681489521125", id:"text2"},
-		{src:"images/text3.png?1681489521125", id:"text3"},
-		{src:"images/text4.png?1681489521125", id:"text4"},
-		{src:"images/text5.png?1681489521125", id:"text5"},
-		{src:"images/text6.png?1681489521125", id:"text6"}
+		{src:"images/app.jpg?1681498167647", id:"app"},
+		{src:"images/bluebar.png?1681498167647", id:"bluebar"},
+		{src:"images/cta.png?1681498167647", id:"cta"},
+		{src:"images/head1.png?1681498167647", id:"head1"},
+		{src:"images/head2.png?1681498167647", id:"head2"},
+		{src:"images/head3_1.png?1681498167647", id:"head3_1"},
+		{src:"images/head3_2.png?1681498167647", id:"head3_2"},
+		{src:"images/head3_3.png?1681498167647", id:"head3_3"},
+		{src:"images/head3_4.png?1681498167647", id:"head3_4"},
+		{src:"images/head3_5.png?1681498167647", id:"head3_5"},
+		{src:"images/image.jpg?1681498167647", id:"image"},
+		{src:"images/logo.png?1681498167647", id:"logo"},
+		{src:"images/orangebar.png?1681498167647", id:"orangebar"},
+		{src:"images/post.jpg?1681498167647", id:"post"},
+		{src:"images/text1.png?1681498167647", id:"text1"},
+		{src:"images/text2.png?1681498167647", id:"text2"},
+		{src:"images/text3.png?1681498167647", id:"text3"},
+		{src:"images/text4.png?1681498167647", id:"text4"},
+		{src:"images/text5.png?1681498167647", id:"text5"},
+		{src:"images/text6.png?1681498167647", id:"text6"}
 	],
 	preloads: []
 };
