@@ -569,11 +569,11 @@ if (reversed == null) { reversed = false; }
 
 	// cta
 	this.instance_2 = new lib.cta_1();
-	this.instance_2.setTransform(84,177.1,0.4384,0.4384,0,0,0,84,177.1);
+	this.instance_2.setTransform(84,158,0.4783,0.4783,0,0,0,84,158);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(292).to({_off:false},0).to({regY:177,scaleX:1,scaleY:1,y:177,alpha:1},46,cjs.Ease.elasticOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(292).to({_off:false},0).to({scaleX:1,scaleY:1,alpha:1},46,cjs.Ease.elasticOut).wait(1));
 
 	// text5
 	this.instance_3 = new lib.text5_1();
@@ -636,7 +636,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-395.1,88.1,1240.6,178.9);
+p.nominalBounds = new cjs.Rectangle(-395.1,91.1,1240.6,176.79999999999998);
 // library properties:
 lib.properties = {
 	id: '90CE9A07CC2147BDA6C7E08CF861CD67',
@@ -646,18 +646,18 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/back.jpg?1681510053307", id:"back"},
-		{src:"images/blue.jpg?1681510053307", id:"blue"},
-		{src:"images/car.png?1681510053307", id:"car"},
-		{src:"images/cta.png?1681510053307", id:"cta"},
-		{src:"images/logo.png?1681510053307", id:"logo"},
-		{src:"images/text1.png?1681510053307", id:"text1"},
-		{src:"images/text2.png?1681510053307", id:"text2"},
-		{src:"images/text3.png?1681510053307", id:"text3"},
-		{src:"images/text4_1.png?1681510053307", id:"text4_1"},
-		{src:"images/text4_2.png?1681510053307", id:"text4_2"},
-		{src:"images/text5.png?1681510053307", id:"text5"},
-		{src:"images/wheel.png?1681510053307", id:"wheel"}
+		{src:"images/back.jpg?1681751528597", id:"back"},
+		{src:"images/blue.jpg?1681751528597", id:"blue"},
+		{src:"images/car.png?1681751528597", id:"car"},
+		{src:"images/cta.png?1681751528597", id:"cta"},
+		{src:"images/logo.png?1681751528597", id:"logo"},
+		{src:"images/text1.png?1681751528597", id:"text1"},
+		{src:"images/text2.png?1681751528597", id:"text2"},
+		{src:"images/text3.png?1681751528597", id:"text3"},
+		{src:"images/text4_1.png?1681751528597", id:"text4_1"},
+		{src:"images/text4_2.png?1681751528597", id:"text4_2"},
+		{src:"images/text5.png?1681751528597", id:"text5"},
+		{src:"images/wheel.png?1681751528597", id:"wheel"}
 	],
 	preloads: []
 };
